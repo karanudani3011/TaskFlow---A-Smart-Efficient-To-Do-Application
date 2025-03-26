@@ -19,26 +19,26 @@ TaskFlow is a modern, intuitive, and feature-rich to-do application designed to 
 - **Hosting:** Deployed using (e.g., Vercel, Netlify, or your preferred hosting service)  
 
 #### **Installation & Setup**  
-1. **Clone the repository:**  
-   ```sh
-   git clone https://github.com/your-username/taskflow.git
-   cd taskflow
-   ```  
-2. **Install dependencies:**  
+
+1. **Install dependencies:**  
    ```sh
    npm install
    ```  
-3. **Set up environment variables:**  
+2. **Set up environment variables:**  
    - Create a `.env` file in the root directory  
    - Add the following variables:  
      ```sh
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_secret_key
      ```  
-4. **Run the application:**  
+3. **Run the application of Backend:**  
    ```sh
-   npm start
-   ```  
+   npm start index.js
+   ```
+4. **Run the application of Frontend:**  
+   ```sh
+   npm run dev
+    ```
 
 #### **Contributing**  
 Contributions are welcome! Feel free to submit issues and pull requests to improve TaskFlow.  
